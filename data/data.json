@@ -1,0 +1,55 @@
+[
+    {
+        "nom": "HARIBO",
+        "prix": 19,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Chocolat",
+        "prix": 25,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Lait",
+        "prix": 8,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Pain",
+        "prix": 2,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Fromage",
+        "prix": 15,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Jus d'orange",
+        "prix": 12,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Biscuits",
+        "prix": 10,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Yaourt",
+        "prix": 4,
+        "image": "/img/téléchargement.webp"
+    },
+    {
+        "nom": "Chips",
+        "prix": 7,
+        "image": "/img/téléchargement.webp"
+    }
+]
+
+
+
+
+
+
+
+
