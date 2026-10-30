@@ -1,25 +1,3 @@
-// import { fetchData } from "./api.js";
-//     let data =JSON.parse(localStorage.getItem('datastock')) || []
+import {show} from './products.js'
 
-// export function show(){
-    
-//     fetchData()
-    
-//             const container= document.getElementById('produits-place')
-//             data.map(data => {
-//                 let card = document.createElement('div')
-
-//                 card.innerHTML = 
-//                 `<img class=" w-55" src="${data.image}">
-//                 <h2 class="pl-2 font-bold">${data.nom}</h2>
-//                 <p class="pl-2 text-red-500 font-semibold">${data.prix } DH</p>`
-
-//                 card.classList.add('bg-white','rounded-xl' ,'p-3', 'm-2', 'shadow','w-fit',  'hover:border-1', 'duration-300', 'hover:-translate-y-1','hover:shadow-lg')
-//                 container.append(card)
-//             });
-//         };
-    
-// show()
-
-
-
+show();
