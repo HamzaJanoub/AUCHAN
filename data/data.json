@@ -1,102 +1,213 @@
+
 [
-    {
-        "nom": "HARIBO",
-        "prix": 19,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Chocolat",
-        "prix": 25,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Lait",
-        "prix": 8,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Pain",
-        "prix": 2,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Fromage",
-        "prix": 15,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Jus d'orange",
-        "prix": 12,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Biscuits",
-        "prix": 10,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Yaourt",
-        "prix": 4,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Chips",
-        "prix": 7,
-        "image": "/img/téléchargement.webp"
-    },
-
-    {
-        "nom": "HARIBO",
-        "prix": 19,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Chocolat",
-        "prix": 25,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Lait",
-        "prix": 8,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Pain",
-        "prix": 2,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Fromage",
-        "prix": 15,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Jus d'orange",
-        "prix": 12,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Biscuits",
-        "prix": 10,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Yaourt",
-        "prix": 4,
-        "image": "/img/téléchargement.webp"
-    },
-    {
-        "nom": "Chips",
-        "prix": 7,
-        "image": "/img/téléchargement.webp"
-    }
-
+  {
+    "nom": "HARIBO",
+    "prix": 19,
+    "image": "/img/téléchargement.webp",
+    "categorie": "Bonbons",
+    "description": "Dragibus bonbons gélifiés aux couleurs variées, idéals pour les petits et les grands."
+  },
+  {
+    "nom": "Chocolat Milka",
+    "prix": 25,
+    "image": "/img/Milka Alpine Chocolate Bar Package.png",
+    "categorie": "Chocolat",
+    "description": "Chocolat au lait alpin Milka, tendre et fondant pour une pause gourmande."
+  },
+  {
+    "nom": "Lait Jaouda",
+    "prix": 8,
+    "image": "/img/PLLACO007.webp",
+    "categorie": "Produits laitiers",
+    "description": "Lait frais Jaouda, idéal pour le petit déjeuner et les boissons chaudes."
+  },
+  {
+    "nom": "Pain complet",
+    "prix": 6,
+    "image": "/img/1325572BOMBONATURE400G_1.webp",
+    "categorie": "Boulangerie",
+    "description": "Pain complet riche en fibres, parfait pour accompagner vos repas quotidiens."
+  },
+  {
+    "nom": "Fromage La Vache qui rit",
+    "prix": 18,
+    "image": "/img/images (8).jpg",
+    "categorie": "Produits laitiers",
+    "description": "Fromage fondu onctueux en portions individuelles, idéal pour les tartines."
+  },
+  {
+    "nom": "Jus d'orange",
+    "prix": 12,
+    "image": "/img/4B835CBE-6B2C-4BA2-AFEC-1C8D17DC0D29.webp",
+    "categorie": "Boissons",
+    "description": "Jus d'orange fruité et rafraîchissant, parfait pour le petit déjeuner."
+  },
+  {
+    "nom": "Biscuits Oreo",
+    "prix": 14,
+    "image": "/img/images.jpg",
+    "categorie": "Biscuits",
+    "description": "Biscuits Oreo croquants fourrés à la crème, pour une pause gourmande."
+  },
+  {
+    "nom": "Yaourt Ananas",
+    "prix": 4,
+    "image": "/img/ananaschergui.webp",
+    "categorie": "Produits laitiers",
+    "description": "Yaourt onctueux au goût d'ananas, idéal pour un dessert léger."
+  },
+  {
+    "nom": "Chips Lay's",
+    "prix": 10,
+    "image": "/img/biyqezmzwx7f1eadnq8d-scaled-1.webp",
+    "categorie": "Snacks",
+    "description": "Chips de pommes de terre croustillantes, parfaites pour vos moments de détente."
+  },
+  {
+    "nom": "Eau Sidi Ali 1.5L",
+    "prix": 6,
+    "image": "/img/images (1).jpg",
+    "categorie": "Boissons",
+    "description": "Eau minérale naturelle Sidi Ali en bouteille de 1,5 litre."
+  },
+  {
+    "nom": "Coca Cola 1L",
+    "prix": 12,
+    "image": "/img/633bcdfd5ca85222760141.webp",
+    "categorie": "Boissons",
+    "description": "Boisson gazeuse Coca-Cola au goût original, idéale à partager."
+  },
+  {
+    "nom": "Fanta Orange",
+    "prix": 9,
+    "image": "/img/Captured_ecran2026-05-16124045.webp",
+    "categorie": "Boissons",
+    "description": "Boisson gazeuse aromatisée à l'orange, fraîche et pétillante."
+  },
+  {
+    "nom": "Riz basmati 1kg",
+    "prix": 16,
+    "image": "/img/e9add783df71998fb7841e65293c.jpg",
+    "categorie": "Épicerie",
+    "description": "Riz de qualité en paquet de 1 kg, idéal pour préparer vos plats préférés."
+  },
+  {
+    "nom": "Pâtes Spaghetti",
+    "prix": 11,
+    "image": "/img/1.jpg",
+    "categorie": "Épicerie",
+    "description": "Pâtes spaghetti faciles à préparer, parfaites avec vos sauces préférées."
+  },
+  {
+    "nom": "Huile de table 1L",
+    "prix": 19,
+    "image": "/img/c87774b864aa69f44de37bf1d736.jpg",
+    "categorie": "Épicerie",
+    "description": "Huile de table en bouteille de 1 litre, idéale pour la cuisson quotidienne."
+  },
+  {
+    "nom": "Sucre 1KG",
+    "prix": 7,
+    "image": "/img/lingots-de-sucre-1kg-enmer-pour-the.jpg",
+    "categorie": "Épicerie",
+    "description": "Sucre blanc en paquet de 1 kg, parfait pour vos boissons et desserts."
+  },
+  {
+    "nom": "Farine 1KG",
+    "prix": 8,
+    "image": "/img/7a2dc70b7db144a38a69418a4c7f.jpg",
+    "categorie": "Épicerie",
+    "description": "Farine de blé en paquet de 1 kg, idéale pour vos préparations culinaires."
+  },
+  {
+    "nom": "Café Nescafé",
+    "prix": 35,
+    "image": "/img/8A225368-536D-4913-A889-579D714C74A2.webp",
+    "categorie": "Boissons",
+    "description": "Café soluble Nescafé au goût intense, facile et rapide à préparer."
+  },
+  {
+    "nom": "Thé Sultan",
+    "prix": 22,
+    "image": "/img/images (2).jpg",
+    "categorie": "Boissons",
+    "description": "Thé Sultan aux feuilles sélectionnées, idéal pour préparer un thé marocain."
+  },
+  {
+    "nom": "Confiture Fraise",
+    "prix": 24,
+    "image": "/img/Confiture-fraises-430g-DELICIA.jpg",
+    "categorie": "Épicerie",
+    "description": "Confiture à la fraise savoureuse, parfaite pour accompagner vos tartines."
+  },
+  {
+    "nom": "Miel Naturel",
+    "prix": 45,
+    "image": "/img/images (3).jpg",
+    "categorie": "Épicerie",
+    "description": "Miel naturel à la texture onctueuse, idéal pour vos petits déjeuners."
+  },
+  {
+    "nom": "Œufs 12 pièces",
+    "prix": 22,
+    "image": "/img/images (4).jpg",
+    "categorie": "Produits frais",
+    "description": "Boîte de 12 œufs frais, idéale pour vos recettes et petits déjeuners."
+  },
+  {
+    "nom": "Beurre 200G",
+    "prix": 18,
+    "image": "/img/1905389_1.jpeg",
+    "categorie": "Produits laitiers",
+    "description": "Beurre doux de 200 g, parfait pour les tartines et les préparations culinaires."
+  },
+  {
+    "nom": "Tomates 1KG",
+    "prix": 9,
+    "image": "/img/istockphoto-157483981-612x612.jpg",
+    "categorie": "Fruits et légumes",
+    "description": "Tomates fraîches de 1 kg, idéales pour les salades et les sauces."
+  },
+  {
+    "nom": "Pommes 1KG",
+    "prix": 14,
+    "image": "/img/667.webp",
+    "categorie": "Fruits et légumes",
+    "description": "Pommes fraîches et croquantes de 1 kg, parfaites pour une collation."
+  },
+  {
+    "nom": "Bananes 1KG",
+    "prix": 13,
+    "image": "/img/Banane-costa-rica_grande_382eb0bc-d850-4e77-a3c3-12f008830d53.webp",
+    "categorie": "Fruits et légumes",
+    "description": "Bananes fraîches de 1 kg, riches en saveur et faciles à déguster."
+  },
+  {
+    "nom": "Oranges 1KG",
+    "prix": 8,
+    "image": "/img/images (6).jpg",
+    "categorie": "Fruits et légumes",
+    "description": "Oranges fraîches de 1 kg, idéales à déguster ou à presser en jus."
+  },
+  {
+    "nom": "Pommes de terre 1KG",
+    "prix": 7,
+    "image": "/img/nouvelle-pomme-de-terre-rouge-d-isolement-sur-le-fond-blanc-100100884.webp",
+    "categorie": "Fruits et légumes",
+    "description": "Pommes de terre fraîches de 1 kg, parfaites pour vos plats quotidiens."
+  },
+  {
+    "nom": "Poulet 1KG",
+    "prix": 38,
+    "image": "/img/B617_PACK_FILET_POULET_BLANC_S_OGM_1K.webp",
+    "categorie": "Viandes",
+    "description": "Poulet frais de 1 kg, idéal pour préparer de délicieux repas en famille."
+  },
+  {
+    "nom": "Thon en conserve (Sénegale)",
+    "prix": 15,
+    "image": "/img/images (7).jpg",
+    "categorie": "Conserves",
+    "description": "Thon en conserve pratique et savoureux, idéal pour les salades et sandwichs."
+  }
 ]
-
-
-
-
-
-
-
-
