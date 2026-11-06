@@ -209,5 +209,114 @@
     "image": "/img/images (7).jpg",
     "categorie": "Conserves",
     "description": "Thon en conserve pratique et savoureux, idéal pour les salades et sandwichs."
+  },
+  
+  {
+    "nom": "T-shirt Homme",
+    "prix": 79,
+    "image": "/img/tshirt-homme.webp",
+    "categorie": "Vêtements",
+    "description": "T-shirt homme en coton, confortable et idéal pour un usage quotidien."
+  },
+  {
+    "nom": "Jean Femme",
+    "prix": 149,
+    "image": "/img/jean-femme.webp",
+    "categorie": "Vêtements",
+    "description": "Jean femme moderne et élégant, parfait pour toutes les occasions."
+  },
+  {
+    "nom": "Sweat-shirt Homme",
+    "prix": 129,
+    "image": "/img/sweat-homme.webp",
+    "categorie": "Vêtements",
+    "description": "Sweat-shirt homme doux et confortable, idéal pour les journées fraîches."
+  },
+  {
+    "nom": "Robe Femme",
+    "prix": 179,
+    "image": "/img/robe-femme.webp",
+    "categorie": "Vêtements",
+    "description": "Robe femme élégante avec une coupe moderne pour un style quotidien."
+  },
+  {
+    "nom": "Baskets Sport",
+    "prix": 199,
+    "image": "/img/baskets.webp",
+    "categorie": "Vêtements",
+    "description": "Baskets sport légères et confortables pour marcher et faire du sport."
+  },
+  {
+    "nom": "Smartphone Samsung Galaxy",
+    "prix": 2499,
+    "image": "/img/samsung.webp",
+    "categorie": "Électronique",
+    "description": "Smartphone Samsung avec un écran de qualité, idéal pour les applications et les photos."
+  },
+  {
+    "nom": "Télévision Smart TV 43 pouces",
+    "prix": 3299,
+    "image": "/img/images (10).jpg",
+    "categorie": "Électronique",
+    "description": "Télévision Smart TV avec une image nette et un accès aux applications de streaming."
+  },
+  {
+    "nom": "Chargeur USB-C",
+    "prix": 89,
+    "image": "/img/chargeur.webp",
+    "categorie": "Électronique",
+    "description": "Chargeur USB-C compact et pratique pour recharger vos appareils électroniques."
+  },
+  {
+    "nom": "Power Bank 10000mAh",
+    "prix": 199,
+    "image": "/img/powerbank.webp",
+    "categorie": "Électronique",
+    "description": "Batterie externe portable de 10000mAh pour recharger vos appareils partout."
+  },
+  {
+    "nom": "Montre Connectée",
+    "prix": 299,
+    "image": "/img/montre.webp",
+    "categorie": "Électronique",
+    "description": "Montre connectée avec affichage des notifications et suivi des activités quotidiennes."
+  },
+  {
+    "nom": "Tablette Android",
+    "prix": 1299,
+    "image": "/img/tablette.webp",
+    "categorie": "Électronique",
+    "description": "Tablette Android pratique pour regarder des vidéos, naviguer sur Internet et étudier."
+  },
+  {
+    "nom": "Clé USB 64GB",
+    "prix": 79,
+    "image": "/img/usb.webp",
+    "categorie": "Électronique",
+    "description": "Clé USB de 64GB pour stocker et transférer facilement vos fichiers."
+  },
+  {
+    "nom": "Disque Dur Externe 1TB",
+    "prix": 499,
+    "image": "/img/disque-dur.webp",
+    "categorie": "Électronique",
+    "description": "Disque dur externe de 1TB pour sauvegarder vos documents, photos et vidéos."
+  },
+  {
+    "nom": "Webcam HD",
+    "prix": 249,
+    "image": "/img/webcam.webp",
+    "categorie": "Électronique",
+    "description": "Webcam HD idéale pour les visioconférences et les cours en ligne."
+  },
+  {
+    "nom": "Routeur Wi-Fi",
+    "prix": 349,
+    "image": "/img/routeur.webp",
+    "categorie": "Électronique",
+    "description": "Routeur Wi-Fi pour partager une connexion Internet avec plusieurs appareils."
   }
 ]
+
+
+
