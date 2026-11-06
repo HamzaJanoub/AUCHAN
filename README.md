@@ -65,35 +65,47 @@ Certaines fonctionnalités ont demandé plus de temps et de réflexion :
 
 ## 5. Fonctionnalités non encore réalisées
 
-Les fonctionnalités suivantes restent à développer :
+Certaines fonctionnalités du cahier des charges n'ont pas encore été réalisées :
 
 - Chargement des produits avec Fetch API depuis `data.json`.
-- Sauvegarde complète avec LocalStorage.
 - Recherche des produits.
 - Filtrage par catégorie.
 - Tri des produits.
 - Pagination.
 - Affichage Grille / Liste.
-- Gestion des quantités et des doublons dans le panier.
-- Modification des quantités.
-- Modules JavaScript (import / export).
-- Méthodes avancées : `map()`, `filter()`, `find()`, `some()` et `reduce()`.
+- Gestion des doublons et des quantités dans le panier.
+- Bouton d'ajout manuel des produits au panier.
+- Gestion complète des quantités.
+- Modules JavaScript (`import` / `export`).
+- Utilisation des méthodes `map()`, `filter()`, `find()`, `some()` et `reduce()`.
 - Validation des formulaires avec Regex.
-- Consommation de l'API RandomUser.
+- Utilisation de l'API RandomUser.
 - Création du tableau de bord administrateur.
-- CRUD : Ajouter, afficher, modifier et supprimer les produits.
-- Tarification selon les tailles.
+- CRUD des produits : ajouter, afficher, modifier et supprimer.
+- Gestion des prix selon les tailles.
 - Génération d'un devis PDF.
-- Dark Mode / Light Mode.
+- Mode sombre / mode clair.
 - Déploiement du site.
+
+**Remarque :** La sauvegarde des données avec LocalStorage et le Drag & Drop ont déjà été réalisés. La gestion de SessionStorage pour la page Contact reste à faire.
 
 ## 6. État actuel du projet
 
-Le travail est principalement concentré sur l'interface des produits et le fonctionnement du panier.
+Actuellement, le projet est principalement concentré sur la création de l'interface et la gestion du panier.
 
-L'ajout des produits par Drag & Drop, la création dynamique des cartes, le calcul du total et la suppression des articles ont été réalisés.
+Les fonctionnalités déjà réalisées sont :
 
-La prochaine étape consiste à améliorer la gestion des quantités et la sauvegarde des données, avant de passer aux autres fonctionnalités du brief.
+- Création de l'interface avec HTML et Tailwind CSS.
+- Manipulation du DOM avec JavaScript.
+- Ouverture et fermeture du Popup du panier.
+- Récupération des informations des produits.
+- Ajout des produits au panier avec Drag & Drop.
+- Création dynamique des cartes des produits.
+- Sauvegarde et récupération des données avec LocalStorage.
+
+Certaines fonctionnalités restent à améliorer, notamment la gestion des produits en double, l'incrémentation des quantités et l'ajout manuel des produits.
+
+Les prochaines étapes seront de terminer ces fonctionnalités, puis de passer progressivement aux autres parties du cahier des charges.
 
 ## 7. Conclusion
 
