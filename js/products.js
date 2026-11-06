@@ -28,7 +28,7 @@ export function show() {
                       <h2 class="pl-2 font-bold">${data.nom}</h2>
                       <p class="pl-2">${data.description}</p>
                       <p class="pl-2 text-red-500 font-semibold">${data.prix} DH</p>
-                      <button class="add-to-card bg-emerald-100 text-emerald-600 rounded-lg p-2 hover:bg-emerald-400 hover hover:text-white flex mt-auto "> + Ajouter au panier  </button>
+                      <button class="add-to-card bg-emerald-100 text-emerald-600 rounded-lg p-1 justify-center hover:bg-emerald-400 hover hover:text-white flex mt-auto "> + Ajouter  </button>
                     </div>
                 `;
       card.classList.add(
