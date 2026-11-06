@@ -3,31 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Auchan</title>
+    <title>Auchan | products</title>
     <link rel="icon" type="image" href="img/auchan.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <header
-    class="flex items-center gap-3 rounded-lg border-0 border-slate-200 bg-white px-6 py-3 shadow-md"
-  >
-    <div>
-      <img src="/img/5a1d324c4ac6b00ff574e2bf.png " alt="AUCHAN" class="w-20" />
-    </div>
-    <div
-      class="flex items-center gap-3 ml-auto hover:border-2 hover:border-red-500 rounded-md p-1"
-    >
-      <img src="/img/panier.png" alt="PANIER" class="w-5" />
-      <p>0.00 DH</p>
-    </div>
+  <header class="sticky top-0 px-4 bg-white shadow-xs border-b border-gray-200 p-2">
+      <div class="flex items-center h-16">
+          <a href="index.html">
+              <img src="/img/5a1d324c4ac6b00ff574e2bf.png" alt="AUCHAN" class="w-35" />
+          </a>
+          <div class="ml-auto flex items-center gap-10">
+              <nav class="flex items-center gap-6">
+                  <a class="font-medium text-gray-500 hover:text-red-600 transition duration-300 text-lg hover:ring p-2 rounded-2xl hover:bg-red-100" href="index.html">Accueil</a>
+                  <a class="font-medium text-gray-500 hover:text-red-600 transition duration-300 text-lg hover:ring p-2 rounded-2xl hover:bg-red-100" href="administration.html">Administration</a>
+                  <a class="font-medium text-gray-500 hover:text-red-600 transition duration-300 text-lg hover:ring p-2 rounded-2xl hover:bg-red-100" href="contact.html">Contactez-nous</a>
+              </nav>
+
+              <button id="pop-up-btn" class="text-gray-500 hover:text-red-600 transition duration-300 text-lg hover:ring p-1 rounded-2xl hover:bg-red-100">
+                  <div class="flex flex-col items-center">
+                      <img src="/img/panier.png" alt="PANIER" class="w-8" />
+                      <p class="total-prix">0.00 DH</p>
+                  </div>
+              </button>
+          </div>
+      </div>
   </header>
-  <body class="bg-gray-100">
+  
+<body class="bg-[url('/img/Auchann.png')] bg-center ">
+
+    
     <section>
+      
       <div class="mt-4">
         <div class="flex flex-col">
           <div class="flex gap-3 items-center ml-1.5">
-            <div
-              class="flex gap-2 w-xs p-2 bg-white rounded-md border-white hover:border-red-500 shadow border-1">
+            <div class="flex gap-2 w-xs p-2 bg-white rounded-md border-white hover:border-red-500 shadow border transition duration-300">
                 <svg  xmlns="http://www.w3.org/2000/svg"  height="24px"  viewBox="0 -960 960 960"  width="24px"  fill="#e3e3e3"><path  d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
               
                 <input id="search-barre" type="search" placeholder="rechercher un produit ..." class="w-full min-w-0 focus:outline-none"/>
@@ -35,7 +46,7 @@
             </div>
             <div>
               <select
-                class="flex p-2 bg-white hover:ring-1 hover:ring-red-500 outline-none mt-1 ml-1 shadow rounded-md pr-30 text-gray-500"
+                class="flex p-2 bg-white hover:ring-1 hover:ring-red-500 outline-none mt-1 ml-1 shadow rounded-md pr-30 text-gray-500 transition duration-300"
                 id="select-categorie">
                 <option value="all">Toutes les catégories</option>
                 <option value="Boissons">Boissons</option>
@@ -50,98 +61,53 @@
                 <option value="Bonbons">Bonbons</option>
                 <option value="Chocolat">Chocolat</option>
                 <option value="Produits frais">Produits frais</option>
+                <option value="Vêtements">Vêtements</option>
+                <option value="Électronique">Électronique</option>
               </select>
             </div>
           </div>
-            <div class="grid grid-cols-1 lg:grid-cols-6 gap-4 m-2">
-             <div  class="lg:col-span-4 bg-white rounded-md shadow p-2">
-                <b class="text-2xl text-red-500"> Notre produits :</b>
-                <p class="my-4 text-gray-500">Découvrez nos produits et trouvez ce qu'il vous faut.</p>
-                <div id="produits-place" class="bg-gray-50 rounded-md  shadow grid  sm:grid-cols-2 lg:grid-cols-4 gap-3 p-2  ">
-
-                        <!-- <div class="bg-white rounded-md flex flex-col m-3 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div>
-            
-                        <div class="bg-white rounded-md flex flex-col m-3 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div>
-                        <div class="bg-white rounded-md flex flex-col m-3 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div>
-                        <div class="bg-white rounded-md flex flex-col m-1 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div>
-                        <div class="bg-white rounded-md flex flex-col m-1 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div>
-                        <div class="bg-white rounded-md flex flex-col m-1 shadow  hover:border-1 duration-300 
-                            hover:-translate-y-1 hover:shadow-lg">
-                            <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                <div class="flex align-baseline">
-                                    <p class="p-2 font-bold">HARIBO</p>
-                                    <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                </div>
-                        </div> -->
+            <div class="grid grid-cols-1 lg:grid-cols-1 gap-4 m-2">
+             <div  class="lg:col-span-4  rounded-md shadow p-2 bg-white">
+                <b class="text-3xl text-red-500"> Notre produits :</b>
+                <p class="my-4 text-2xl text-gray-500">Découvrez nos produits et trouvez ce qu'il vous faut.</p>
+                <div id="produits-place" class="bg-gray-50 rounded-md  shadow grid  sm:grid-cols-2 lg:grid-cols-6 gap-3 p-2  ">
 
 
           </div> 
-            <div class="flex justify-between items-center gap-3 mt-2 ">
+            <div class="flex justify-center items-center gap-3 mt-2 ">
                 <button id="pre-btn" class="bg-white    rounded-md p-1 m-1 duration-300 
                 hover:-translate-y-1 hover:shadow-red-200 hover:shadow-lg hover:bg-red-50  "> <- precédent</button>
   
             
-                <span id="number-page" class="font-semibold  border-1 border-gray-400 rounded-md w-6 text-center text-gray-500 "> 1 </span>
+                <span id="number-page" class="font-semibold  border border-gray-400 rounded-md w-6 text-center text-gray-500 bg-white "> 1 </span>
 
                 <button id="next-btn" class="bg-white  rounded-md p-1 m-1 duration-300 
-                hover:-translate-y-1 hover:shadow-red-200 hover:shadow-lg hover:bg-red-50 ">Suivant -> </button>
+                hover:-translate-y -1 hover:shadow-red-200 hover:shadow-lg hover:bg-red-50 bi">Suivant -> </button>
 
 
             </div>
           </div>
-                            <div class="lg:col-span-2 sm:col-span-1 bg-white rounded-md shadow p-4 ">
-                                <h2 class="text-2xl font-bold text-red-500 "> Mon panier</h2>
+
+        </div>
+        
+      </div>
+      
+    </section>
+     <div id="pop-up" class="fixed hidden p-0  inset-0 bg-black/40 z-50">
+      
+        
+                                <div id="panier-show" class="absolute top-0 right-0 h-screen w-96 bg-white rounded-md shadow p-4 overflow-y-auto">
+                                <h2 class="  text-2xl font-bold text-red-500 "> Mon panier</h2>
                                 <p class="mt-4 text-gray-500">Voici cotre panier : </p>
-                                    <div class="bg-gray-50 rounded-md flex flex-wrap m-1 hover:shadow-red-200   duration-300 
+                                    <div id="panier-place" class="bg-gray-50 rounded-md flex flex-col gap-3 p-3 m-1  hover:shadow-red-200   duration-300 
                                         hover:-translate-y-1 hover:shadow-lg">
-                                        <img src="/img/téléchargement.webp" alt="produit haribo" class="w-40 rounded-md m-1">
-                                            <div class="flex flex-col ">
-                                                <p class="p-2 font-bold">HARIBO</p>
-                                                <p class="p-2">Dragibus bonbons gélifiés en sachets individuels Dragibouuuh </p>
-                                                <p class="p-2 text-red-500 font-semibold"> 19.00 DH</p>
-                                            </div>
+
                                     </div>
                                 <hr class="my-4 text-gray-500">
-                                <p class="text-red-500 font-bold">Total : 0.00 DH</p>
+                                <p class="total-prix text-red-500 font-bold">Total : 0.00 DH</p>
                             </div>
-        </div>
-      </div>
-    </section>
+              
+  </div>              
     <script type="module" src="./js/main.js" defer></script>
   </body>
 </html>
